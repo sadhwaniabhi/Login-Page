@@ -18,6 +18,7 @@ body{
 }
 
 section{
+  width: 28rem;
   display: inline-block;
   border-radius: 0.8rem;
   background-color: white;
