@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background-color: #0093E9;
+  background-image: linear-gradient(19deg, #21d4fd 0%,#b712ff  100%);
+  height: 100vh;
+  font-family: "Poppins", Sans-Serif;
+}
+
+section{
+  display: inline-block;
+  border-radius: 0.8rem;
+  background-color: white;
+  padding:2rem;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.auth h1{
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid silver;
+  
+}
+
+.auth input{
+  display: block;
+  width: 28rem;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 1rem 0.4rem;
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.auth form p{
+  color: rgb(163, 163, 163);
+}
+
+.auth form p:hover{
+  color: rgb(80,80,80);
+  cursor: pointer;
+}
+
+.auth form button{
+  display: block;
+  margin: 2rem auto;
+  width: 90%;
+  background-color: #0086da;
+  color: white;
+  font-size: 1.6rem;
+  border: 0.2rem solid #0086da;
+  border-radius: 1.7rem;
+  padding: 0.9rem 0;
+}
+
+.auth 
+
+footer img{
+  width: 10%;
+  height: 10%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
