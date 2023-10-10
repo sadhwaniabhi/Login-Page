@@ -40,14 +40,16 @@ section{
   display: block;
   width: 28rem;
   border: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 0.2rem solid #A3A3A3;
   padding: 1rem 0.4rem;
   margin: 2rem auto;
   width: 90%;
 }
 
 .auth form p{
+  font-size: 1.2rem;
   color: rgb(163, 163, 163);
+  margin: 1rem 0 0.5rem 1rem;
 }
 
 .auth form p:hover{
@@ -67,7 +69,15 @@ section{
   padding: 0.9rem 0;
 }
 
-.auth 
+.auth .signup{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.auth .signup span{
+  color: #007ecc;
+  font-weight: 600;
+}
 
 footer img{
   width: 10%;
