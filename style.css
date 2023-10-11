@@ -18,6 +18,7 @@ body{
 }
 
 .auth{
+    width: 32rem;
   display: inline-block;
   border-radius: 0.8rem;
   background-color: white;
@@ -33,6 +34,7 @@ body{
   font-size: 2.5rem;
   padding-bottom: 2rem;
   border-bottom: 0.1rem solid silver;
+  margin-bottom: 2rem;
   
 }
 
@@ -47,6 +49,7 @@ body{
   border-bottom: 0.15rem solid #A3A3A3;
   padding: 0 0.5rem;
   outline: none;
+  margin: 1rem 0 1rem 0;
   
 }
 
@@ -57,11 +60,14 @@ body{
 .auth input::placeholder{
   color: rgb(163, 163, 163);
 }
+.auth form{
+    margin: 1rem;
+}
 
 .auth form p{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: rgb(163, 163, 163);
-  margin: 1rem 0 0.5rem 1rem;
+  margin: 2rem 0 0 0.5rem;
 }
 
 .auth form p:hover{
@@ -78,7 +84,11 @@ body{
   font-size: 1.6rem;
   border: 0.2rem solid #0086da;
   border-radius: 1.7rem;
-  padding: 0.9rem 0;
+  padding: 0.75rem 0;
+}
+
+.auth form button:hover{
+    cursor: pointer;
 }
 
 .auth .signup{
@@ -91,11 +101,18 @@ body{
   font-weight: 600;
 }
 
-footer img{
-  width: 10%;
-  height: 10%;
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
+.auth .signup span:hover{
+    cursor: pointer;
 }
 
+footer .contact-us{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+footer .contact-us:hover{
+    cursor: pointer;
+}
