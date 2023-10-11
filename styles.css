@@ -18,7 +18,8 @@ body{
 }
 
 .auth{
-    width: 32rem;
+  min-width: 28rem;
+  max-width: 32rem;
   display: inline-block;
   border-radius: 0.8rem;
   background-color: white;
